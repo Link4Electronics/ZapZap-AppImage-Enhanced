@@ -17,7 +17,10 @@ export DEPLOY_SYS_PYTHON=1
 export DEPLOY_QT_WEB_ENGINE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/zapzap
+quick-sharun /usr/bin/zapzap \
+   /usr/lib/libQt6Core.so*   \
+	 /usr/lib/libQt6Gui.so*    \
+	 /usr/lib/libQt6Network.so*
 
 # Additional changes can be done in between here
 
