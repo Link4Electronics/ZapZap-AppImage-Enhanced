@@ -14,6 +14,7 @@ export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 export DEPLOY_PIPEWIRE=1
 export DEPLOY_SYS_PYTHON=1
+export DEPLOY_QT_WEBENGINE=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/zapzap
